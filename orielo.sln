@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		LICENSE = LICENSE
+		resources\Montserrat-Bold.zip = resources\Montserrat-Bold.zip
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -14,9 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4546D2FC-582
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A201410-DCB7-46E7-A23F-7453115DAB7F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{A652BDB5-9364-4BD8-AD02-C81C3F3D3BE1}"
+	ProjectSection(SolutionItems) = preProject
+		resources\Montserrat-Bold.zip = resources\Montserrat-Bold.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A652BDB5-9364-4BD8-AD02-C81C3F3D3BE1} = {5046B0AC-05F6-463E-BF22-73C1AD8999BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CF3A636-270C-4970-83DC-89559269A6A8}
